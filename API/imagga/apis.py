@@ -15,5 +15,4 @@ response = r.get(
 
 @bp.route('/', methods=['GET'])
 def index():
-    #return response.json()
-    return jsonify(response.json())
+    return response.json()
